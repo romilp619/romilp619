@@ -8,6 +8,7 @@ The three animations in the profile README, rendered from React with
 | `Banner` | `assets/banner.gif` | 1000x280 |
 | `Whoami` | `assets/whoami.gif` | 1000x420 |
 | `Stack` | `assets/stack.gif` | 1000x520 |
+| `Stats` | `stats` branch, `stats.gif`, re-rendered daily | 1000x668 |
 
 All three are 8 s loops at 24fps that fade from and to black, so the GIFs loop without a seam.
 
@@ -43,6 +44,37 @@ Logo sourcing, in `src/logos.ts`:
   and Firebase, whose multicolour marks lose their identity in one colour. The AWS
   lettering is recoloured white, as in AWS's own dark-background logo.
 
+## Stats
+
+Four panels from live GitHub data for the last 12 months:
+
+- **Contributions:** weekly totals as a smooth wave that draws in, then a light pulse
+  travels along it.
+- **Streak:** a ring filled to current streak over longest, with a comet orbiting it.
+- **Languages:** share of code by bytes across public, non-fork repos, top five plus
+  Other, in GitHub's own language colours. The donut sweeps in and slowly turns.
+- **Activity:** commits, active days, public repos, best day, best week, contributions
+  per active day, and a bar per weekday with the busiest one highlighted.
+
+The data never animates: counters count up to the real value and stay there, and bar
+heights and curve points are fixed. Only the presentation moves.
+
+`scripts/fetch-stats.mjs` fetches the data and writes it as Remotion props.
+`.github/workflows/stats.yml` runs it every day at 02:23 UTC (and on pushes that touch
+`banner/`), renders the GIF and force-pushes it with its JSON to the orphan `stats`
+branch as a single commit. Bot commits on a non-default branch keep main's history
+clean and don't count toward the contribution graph.
+
+To render it locally:
+
+```bash
+GH_TOKEN=<token> node scripts/fetch-stats.mjs romilp619 out/stats.json
+```
+
+```bash
+PROPS=out/stats.json scripts/export-gif.sh Stats out/stats.gif 128 60 full 5
+```
+
 ## Layout
 
 ```
@@ -52,6 +84,9 @@ src/
   Banner.tsx        banner scene and timing
   Whoami.tsx        whoami terminal and proof points
   Stack.tsx         stack grid
+  Stats.tsx         stats panels
+  statsTypes.ts     stats data shape
+  data/             sample stats props for the studio
   logos.ts          stack data, brand colours, contrast rule
   fonts.ts          shared JetBrains Mono
   theme.ts          palette and canvas constants

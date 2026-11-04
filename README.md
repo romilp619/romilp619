@@ -58,19 +58,9 @@ I write at [medium.com/@romilp618](https://medium.com/@romilp618).
 
 ## `~/stats`
 
-<div align="center">
+<img src="https://raw.githubusercontent.com/romilp619/romilp619/stats/stats.gif" width="100%" alt="Animated GitHub stats for romilp619 over the last 12 months: weekly contribution wave, current and longest streak, languages by code, commits, active days, public repos, best day and week, and contributions by weekday. Re-rendered daily from the GitHub API." />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=romilp619&theme=github_dark" alt="Profile summary" width="92%" />
-
-<img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=romilp619&theme=github_dark" alt="Repos per language" />
-<img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=romilp619&theme=github_dark" alt="Most committed language" />
-
-<img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=romilp619&theme=github_dark" alt="Stats" />
-<img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=romilp619&theme=github_dark&utcOffset=5.5" alt="Productive time" />
-
-<img height="190" src="https://streak-stats.demolab.com?user=romilp619&hide_border=true&background=0d1117&ring=39d353&fire=39d353&currStreakLabel=39d353&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e&stroke=30363d" alt="Contribution streak" />
-
-</div>
+<sub>Re-rendered every day from the GitHub API by <a href="./.github/workflows/stats.yml">a workflow</a> in this repo.</sub>
 
 ---
 
@@ -85,5 +75,5 @@ Reach me at **romilp616@gmail.com**, or on [LinkedIn](https://www.linkedin.com/i
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=romilp619&label=profile+views&color=39d353&style=flat-square" alt="Profile views" />
 <br /><br />
-<sub>The banner, whoami and stack animations are not templates. They are rendered from React with <a href="https://www.remotion.dev">Remotion</a>, source in <a href="./banner"><code>/banner</code></a>.</sub>
+<sub>The banner, whoami, stack and stats animations are not templates. They are rendered from React with <a href="https://www.remotion.dev">Remotion</a>, source in <a href="./banner"><code>/banner</code></a>.</sub>
 </div>
