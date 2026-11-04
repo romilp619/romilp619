@@ -1,0 +1,65 @@
+# Re-renders the animated ~/stats panel from live GitHub data once a day.
+# The GIF goes to the orphan `stats` branch, force-pushed as a single commit,
+# so main's history stays clean. Bot commits on a non-default branch do not
+# count toward the profile's contribution graph.
+name: Refresh stats animation
+
+on:
+  schedule:
+    - cron: "23 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "banner/**"
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: banner
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: banner/package-lock.json
+
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - run: npm ci --no-audit --no-fund
+
+      - name: Fetch stats
+        run: mkdir -p out && node scripts/fetch-stats.mjs "${{ github.repository_owner }}" out/stats.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render GIF
+        run: PROPS=out/stats.json scripts/export-gif.sh Stats out/stats.gif 128 60 full 5
+
+      - name: Publish to stats branch
+        run: |
+          mkdir -p "$RUNNER_TEMP/publish"
+          cp out/stats.gif out/stats.json "$RUNNER_TEMP/publish/"
+          cd "$RUNNER_TEMP/publish"
+          git init -q -b stats
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.gif stats.json
+          git commit -q -m "Refresh stats animation ($(date -u +%F))"
+          git push -f -q "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
