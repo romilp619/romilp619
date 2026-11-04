@@ -1,11 +1,18 @@
-# Profile banner
+# Profile motion
 
-The animated banner at the top of the profile README. Rendered from React with
-[Remotion](https://www.remotion.dev), not a template or a generator.
+The three animations in the profile README, rendered from React with
+[Remotion](https://www.remotion.dev), not templates or generators:
 
-## What it renders
+| Composition | Output | Size |
+|:--|:--|:--|
+| `Banner` | `assets/banner.gif` | 1000x280 |
+| `Whoami` | `assets/whoami.gif` | 1000x420 |
+| `Stack` | `assets/stack.gif` | 1000x520 |
 
-A 1000x280, 8 second loop at 24fps:
+All three are 8 s loops at 24fps that fade from and to black, so the GIFs loop without a seam.
+
+## Banner
+
 
 1. A shell prompt types `whoami`.
 2. `ROMIL PATEL` resolves character by character out of a scrambling cipher.
@@ -13,7 +20,28 @@ A 1000x280, 8 second loop at 24fps:
 4. A second prompt types `cat stack.txt` and the stack chips stagger in.
 5. A contribution style heatmap fills column by column on the right, then breathes.
 
-It fades from and to black at the loop boundary so the exported GIF has no visible seam.
+
+## Whoami
+
+A terminal types `whoami --verbose` and prints a profile row by row, platform names
+in their own brand colours. A proof-points column counts up beside it; the figures
+are the ones on the proof strip of romilp619.github.io.
+
+## Stack
+
+Every tool on one fixed grid, so columns line up across categories. Tiles land grey
+and light into their brand colour, then a scan pass picks out each column.
+
+Logo sourcing, in `src/logos.ts`:
+
+- Marks and brand hex from [simple-icons](https://simpleicons.org) (CC0), pinned to 16.35.0.
+- If a brand colour fails a 2.5:1 contrast check against the tile, the mark renders
+  white, which is what those brands (HackerOne, Rust, Solidity, Next.js) ship for dark
+  backgrounds. Every other mark keeps its exact brand hex.
+- From [devicon](https://devicon.dev) (MIT), pinned to 2.17.0, in `public/logos`: AWS
+  and Azure, which simple-icons removed for trademark reasons, and Python, Google Cloud
+  and Firebase, whose multicolour marks lose their identity in one colour. The AWS
+  lettering is recoloured white, as in AWS's own dark-background logo.
 
 ## Layout
 
@@ -21,7 +49,11 @@ It fades from and to black at the loop boundary so the exported GIF has no visib
 src/
   index.ts          registerRoot entry
   Root.tsx          composition registration
-  Banner.tsx        scene composition and timing
+  Banner.tsx        banner scene and timing
+  Whoami.tsx        whoami terminal and proof points
+  Stack.tsx         stack grid
+  logos.ts          stack data, brand colours, contrast rule
+  fonts.ts          shared JetBrains Mono
   theme.ts          palette and canvas constants
   parts/
     Backdrop.tsx    gradient, engineering grid, scan sweep, scanlines
@@ -41,21 +73,25 @@ npm run studio
 
 ## Export
 
-Render the frame sequence at 2x, then downscale and quantise.
+`scripts/export-gif.sh` renders a composition at 2x, downscales, quantises and runs
+gifsicle. These are the exact commands for the committed GIFs:
 
 ```bash
-npx remotion render Banner out/frames --sequence --scale=2
+scripts/export-gif.sh Banner ../assets/banner.gif 64 70 diff 4
 ```
 
 ```bash
-ffmpeg -y -framerate 24 -i out/frames/element-%03d.png \
-  -vf "fps=16,scale=1000:280:flags=lanczos,split[a][b];[a]palettegen=max_colors=64:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle" \
-  -loop 0 out/banner16.gif
+scripts/export-gif.sh Whoami ../assets/whoami.gif 128 60 full 5
 ```
 
 ```bash
-node_modules/gifsicle/vendor/gifsicle -O3 --lossy=70 out/banner16.gif -o ../assets/banner.gif
+scripts/export-gif.sh Stack ../assets/stack.gif 256 60 full 5
 ```
+
+The palette mode matters. `diff` builds the palette from pixels that change between
+frames, which suits the banner's moving sweep. Whoami and Stack are mostly static
+brand colour, and under `diff` those colours got too few palette slots (Bugcrowd's
+orange drifted brown, Google Cloud's blue went grey), so they use `full`.
 
 ## Notes
 

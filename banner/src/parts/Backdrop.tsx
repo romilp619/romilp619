@@ -1,6 +1,6 @@
 import React from "react";
-import { interpolate, useCurrentFrame } from "remotion";
-import { theme, WIDTH, HEIGHT, DURATION } from "../theme";
+import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
+import { theme, DURATION } from "../theme";
 
 /**
  * Background: deep gradient, faint engineering grid, and a slow scan sweep.
@@ -8,6 +8,7 @@ import { theme, WIDTH, HEIGHT, DURATION } from "../theme";
  */
 export const Backdrop: React.FC = () => {
   const frame = useCurrentFrame();
+  const { width: WIDTH, height: HEIGHT } = useVideoConfig();
 
   const gridOpacity = interpolate(frame, [0, 22], [0, 1], {
     extrapolateRight: "clamp",

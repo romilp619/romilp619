@@ -4,12 +4,11 @@
 
 <div align="center">
 
-[![Profile views](https://komarev.com/ghpvc/?username=romilp619&label=profile+views&color=39d353&style=flat-square)](https://github.com/romilp619)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&labelColor=0d1117&color=0d1117)](https://www.linkedin.com/in/romilpatel1998)
-[![X](https://img.shields.io/badge/X-0d1117?style=flat-square&logo=x&logoColor=39d353)](https://twitter.com/romilpatel1988)
-[![Medium](https://img.shields.io/badge/Medium-0d1117?style=flat-square&logo=medium&logoColor=39d353)](https://medium.com/@romilp618)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=googlechrome&logoColor=39d353)](https://romil1998.my.canva.site/romilpatel-porfolio)
-[![Email](https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=39d353)](mailto:romilp616@gmail.com)
+<a href="https://www.linkedin.com/in/romilpatel1998"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjMEE2NkMyIiBkPSJNMTE2IDNIMTJhOC45MSA4LjkxIDAgMDAtOSA4Ljh2MTA0LjQyYTguOTEgOC45MSAwIDAwOSA4Ljc4aDEwNGE4LjkzIDguOTMgMCAwMDktOC44MVYxMS43N0E4LjkzIDguOTMgMCAwMDExNiAzek0zOS4xNyAxMDdIMjEuMDZWNDguNzNoMTguMTF6bS05LTY2LjIxYTEwLjUgMTAuNSAwIDExMTAuNDktMTAuNSAxMC41IDEwLjUgMCAwMS0xMC41NCAxMC40OHpNMTA3IDEwN0g4OC44OVY3OC42NWMwLTYuNzUtLjEyLTE1LjQ0LTkuNDEtMTUuNDRzLTEwLjg3IDcuMzYtMTAuODcgMTVWMTA3SDUwLjUzVjQ4LjczaDE3LjM2djhoLjI0YzIuNDItNC41OCA4LjMyLTkuNDEgMTcuMTMtOS40MUMxMDMuNiA0Ny4yOCAxMDcgNTkuMzUgMTA3IDc1eiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" height="28" /></a>
+<a href="https://twitter.com/romilpatel1988"><img src="https://img.shields.io/badge/X-161b22?style=for-the-badge&logo=x&logoColor=white" alt="X" height="28" /></a>
+<a href="https://medium.com/@romilp618"><img src="https://img.shields.io/badge/Medium-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZmZmZiI%2BPGVsbGlwc2UgY3g9IjYuOCIgY3k9IjEyIiByeD0iNi44IiByeT0iNi44Ii8%2BPGVsbGlwc2UgY3g9IjE3LjYiIGN5PSIxMiIgcng9IjMuNCIgcnk9IjYuNCIvPjxlbGxpcHNlIGN4PSIyMi44NiIgY3k9IjEyIiByeD0iMS4xNCIgcnk9IjUuNzQiLz48L3N2Zz4K" alt="Medium" height="28" /></a>
+<a href="https://romilp619.github.io/"><img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzdmZjQxIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMTIgMmExNC41IDE0LjUgMCAwIDAgMCAyMCAxNC41IDE0LjUgMCAwIDAgMC0yMCIvPjxwYXRoIGQ9Ik0yIDEyaDIwIi8%2BPC9zdmc%2BCg%3D%3D" alt="Portfolio" height="28" /></a>
+<a href="mailto:romilp616@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" height="28" /></a>
 
 </div>
 
@@ -17,17 +16,22 @@
 
 ## `~/whoami`
 
-I break things on purpose, then write the fix.
+<img src="./assets/whoami.gif" width="100%" alt="Terminal running whoami. Romil Patel, Security Researcher and Bug Bounty Hunter. Hunting on HackerOne and Bugcrowd. Training on Hack The Box, TryHackMe and PentesterLab. Team: Kernel Kittens, CTF. Focus: web, cloud, smart contracts. Building agentic security tooling and recon automation. Open to collaboration. Proof points: 20+ professional credentials, 274 PortSwigger lab patterns mapped, 80+ secret and exposure patterns, 6.7K cybersecurity community." />
+
+**I break things on purpose, then write the fix.**
+
+<details>
+<summary>More about how I work</summary>
+
+<br />
 
 Security researcher and bug bounty hunter working across web, cloud and smart contracts. Most of my time goes into finding the logic flaw nobody modelled: the IDOR behind a well-designed API, the auth bypass hiding in an OAuth redirect, the accounting desync in a vault contract. The rest goes into building the tooling that finds those bugs faster.
 
 I also build full-stack products. Security work and product work feed each other. Knowing how software gets shipped is how you guess where it breaks.
 
-```text
-focus      Web application security, bug bounty, CTF, smart contract audit
-building   Agentic security tooling, recon automation, AI powered analysis
-writing    medium.com/@romilp618
-```
+I write at [medium.com/@romilp618](https://medium.com/@romilp618).
+
+</details>
 
 ---
 
@@ -48,39 +52,7 @@ writing    medium.com/@romilp618
 
 ## `~/stack --list`
 
-**Offensive security**
-
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-0d1117?style=for-the-badge&logo=burpsuite&logoColor=39d353)
-![Metasploit](https://img.shields.io/badge/Metasploit-0d1117?style=for-the-badge&logo=metasploit&logoColor=39d353)
-![Wireshark](https://img.shields.io/badge/Wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=39d353)
-![Kali](https://img.shields.io/badge/Kali_Linux-0d1117?style=for-the-badge&logo=kalilinux&logoColor=39d353)
-![HackerOne](https://img.shields.io/badge/HackerOne-0d1117?style=for-the-badge&logo=hackerone&logoColor=39d353)
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=39d353)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=39d353)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=39d353)
-![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=39d353)
-![Solidity](https://img.shields.io/badge/Solidity-0d1117?style=for-the-badge&logo=solidity&logoColor=39d353)
-![Bash](https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=39d353)
-
-**Build**
-
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=39d353)
-![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=39d353)
-![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=39d353)
-![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=39d353)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=39d353)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=39d353)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-0d1117?style=for-the-badge&logo=kubernetes&logoColor=39d353)
-
-**Cloud**
-
-![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge)
-![GCP](https://img.shields.io/badge/Google_Cloud-0d1117?style=for-the-badge&logo=googlecloud&logoColor=39d353)
-![Azure](https://img.shields.io/badge/Azure-0d1117?style=for-the-badge)
-![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=for-the-badge&logo=firebase&logoColor=39d353)
+<img src="./assets/stack.gif" width="100%" alt="Stack. Offensive: Burp Suite, Metasploit, Wireshark, Kali Linux, HackerOne, Bugcrowd, Hack The Box. Languages: Python, TypeScript, JavaScript, Rust, Solidity, Bash. Build: React, Node.js, Next.js, MongoDB, PostgreSQL, Docker, Kubernetes. Cloud: AWS, Google Cloud, Azure, Firebase." />
 
 ---
 
@@ -106,10 +78,12 @@ writing    medium.com/@romilp618
 
 Open to security research collaboration, bug bounty duos, and interesting product builds.
 
-Reach me at **romilp616@gmail.com**, or on [LinkedIn](https://www.linkedin.com/in/romilpatel1998) and [X](https://twitter.com/romilpatel1988).
+Reach me at **romilp616@gmail.com**, or on [LinkedIn](https://www.linkedin.com/in/romilpatel1998) and [X](https://twitter.com/romilpatel1988). Work and write-ups live at **[romilp619.github.io](https://romilp619.github.io/)**.
 
 ---
 
 <div align="center">
-<sub>The banner above is not a template. It is rendered from React with <a href="https://www.remotion.dev">Remotion</a>, source in <a href="./banner"><code>/banner</code></a>.</sub>
+<img src="https://komarev.com/ghpvc/?username=romilp619&label=profile+views&color=39d353&style=flat-square" alt="Profile views" />
+<br /><br />
+<sub>The banner, whoami and stack animations are not templates. They are rendered from React with <a href="https://www.remotion.dev">Remotion</a>, source in <a href="./banner"><code>/banner</code></a>.</sub>
 </div>
