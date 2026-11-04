@@ -1,52 +1,115 @@
-![MasterHead](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)
-<h1 align="center">Hi 👋, I'm Romil Patel</h1>
-<h3 align="center">Hello Coders! My name is Romil Patel, I am Cyber Security and Ethical Hacking Enthastic. I am also CyberSecurity Research Intern. In addition to that, I am also a campus ambassador at HackerEarth and GSSOC. I am currently learning full-stack web development. I am also passionate about google cloud skill boost where I have earned many badges on google cloud.</h3>
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=romilp619&label=Profile%20views&color=0e75b6&style=flat" alt="romilp619" /> </p>
+<div align="center">
+  <img src="./assets/banner.gif" alt="Romil Patel. Security Researcher, Bug Bounty Hunter, Builder." width="100%" />
+</div>
 
-<p align="left"> <a href="https://twitter.com/romilpatel1988" target="blank"><img src="https://img.shields.io/twitter/follow/romilpatel1988?logo=twitter&style=for-the-badge" alt="romilpatel1988" /></a> </p>
+<div align="center">
 
-- 🌱 I’m currently learning **Javascript, Reactjs, Nodejs, Mongodb**
+[![Profile views](https://komarev.com/ghpvc/?username=romilp619&label=profile+views&color=39d353&style=flat-square)](https://github.com/romilp619)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&labelColor=0d1117&color=0d1117)](https://www.linkedin.com/in/romilpatel1998)
+[![X](https://img.shields.io/badge/X-0d1117?style=flat-square&logo=x&logoColor=39d353)](https://twitter.com/romilpatel1988)
+[![Medium](https://img.shields.io/badge/Medium-0d1117?style=flat-square&logo=medium&logoColor=39d353)](https://medium.com/@romilp618)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=googlechrome&logoColor=39d353)](https://romil1998.my.canva.site/romilpatel-porfolio)
+[![Email](https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=39d353)](mailto:romilp616@gmail.com)
 
-- 👨‍💻 All of my projects are available at [https://romil1998.my.canva.site/romilpatel-porfolio](https://romil1998.my.canva.site/romilpatel-porfolio)
+</div>
 
-- 📝 I regularly write articles on [https://medium.com/@romilp618](https://medium.com/@romilp618)
+---
 
-- 📫 How to reach me **romilp616@gmail.com**
+## `~/whoami`
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/romilpatel1988" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="romilpatel1988" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/romilpatel1998" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/romilpatel1998" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/https://auth.geeksforgeeks.org/user/romilp618/practice" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="https://auth.geeksforgeeks.org/user/romilp618/practice" height="30" width="40" /></a>
-<a href="https://discord.gg/https://discord.gg/G4xBz57e" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.gg/G4xBz57e" height="30" width="40" /></a>
-</p>
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="1000" height="2" />
+I break things on purpose, then write the fix.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+Security researcher and bug bounty hunter working across web, cloud and smart contracts. Most of my time goes into finding the logic flaw nobody modelled: the IDOR behind a well-designed API, the auth bypass hiding in an OAuth redirect, the accounting desync in a vault contract. The rest goes into building the tooling that finds those bugs faster.
 
-## 💫 Github Stats
+I also build full-stack products. Security work and product work feed each other. Knowing how software gets shipped is how you guess where it breaks.
 
-<table>    
-<tr>
-  <td align="center">
-    <img width="400" src="https://github-readme-streak-stats.herokuapp.com?user=romilp619&theme=monokai&background=000000&border=FFFFFF&fire=FFF244&currStreakNum=17F6F0&sideNums=11FDFF&dates=CDEB40&sideLabels=FF28D2" alt="romilp619" />
-  </td>
-  <td align="center">
-    <img width="365" src="https://github-readme-stats.vercel.app/api?username=romilp619&theme=highcontrast&hide_border=false&include_all_commits=false&count_private=false" alt="romilp619" /> 
-  </td>
-</tr>
-</table>
+```text
+focus      Web application security, bug bounty, CTF, smart contract audit
+building   Agentic security tooling, recon automation, AI powered analysis
+writing    medium.com/@romilp618
+```
 
-<table>    
-<tr>
-  <td align="center">
-    <img height="190" width="792" src="https://github-readme-stats.vercel.app/api/top-langs/?username=romilp619&theme=highcontrast&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="romilp619" /> 
-  </td>
-</tr>
-</table>
+---
 
-## Quotes
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical">
+## `~/projects --featured`
 
+| Project | What it does | Stack |
+|:--|:--|:--|
+| [**upshift**](https://github.com/romilp619/upshift) | Autonomous framework migration agent. Finishes what codemods cannot, and gets cheaper per file as it learns the repo. Built for neatHack 2026. | `Python` |
+| [**PactCue**](https://github.com/romilp619/PactCue) | Turns static PDFs into guided, AI assisted, ready to sign workflows. | `TypeScript` |
+| [**signalroom-ai**](https://github.com/romilp619/signalroom-ai) | Slack agent that detects hidden project risk from team conversation and generates evidence backed rescue plans. | `JavaScript` |
+| [**BountyForge-Toolkit**](https://github.com/romilp619/BountyForge-Toolkit) | Bug bounty automation toolkit for recon and triage. | `Python` |
+| [**Phantom-DFIR**](https://github.com/romilp619/Phantom-DFIR) | Digital forensics and incident response tooling. | `Python` |
+| [**solana-guard-x**](https://github.com/romilp619/solana-guard-x) | Security tooling for Solana programs. | `Rust` |
+| [**ai-security-advisory-assistant**](https://github.com/romilp619/ai-security-advisory-assistant) | Assistant that turns raw advisories into actionable guidance. | `TypeScript` |
+| [**Ultimate-Bug-Bounty-Google-Dork**](https://github.com/romilp619/Ultimate-Bug-Bounty-Google-Dork) | Curated dork collection for recon. | `Python` |
+
+---
+
+## `~/stack --list`
+
+**Offensive security**
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-0d1117?style=for-the-badge&logo=burpsuite&logoColor=39d353)
+![Metasploit](https://img.shields.io/badge/Metasploit-0d1117?style=for-the-badge&logo=metasploit&logoColor=39d353)
+![Wireshark](https://img.shields.io/badge/Wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=39d353)
+![Kali](https://img.shields.io/badge/Kali_Linux-0d1117?style=for-the-badge&logo=kalilinux&logoColor=39d353)
+![HackerOne](https://img.shields.io/badge/HackerOne-0d1117?style=for-the-badge&logo=hackerone&logoColor=39d353)
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=39d353)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=39d353)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=39d353)
+![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=39d353)
+![Solidity](https://img.shields.io/badge/Solidity-0d1117?style=for-the-badge&logo=solidity&logoColor=39d353)
+![Bash](https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=39d353)
+
+**Build**
+
+![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=39d353)
+![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=39d353)
+![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=39d353)
+![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=39d353)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=39d353)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=39d353)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-0d1117?style=for-the-badge&logo=kubernetes&logoColor=39d353)
+
+**Cloud**
+
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge)
+![GCP](https://img.shields.io/badge/Google_Cloud-0d1117?style=for-the-badge&logo=googlecloud&logoColor=39d353)
+![Azure](https://img.shields.io/badge/Azure-0d1117?style=for-the-badge)
+![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=for-the-badge&logo=firebase&logoColor=39d353)
+
+---
+
+## `~/stats`
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=romilp619&theme=github_dark" alt="Profile summary" width="92%" />
+
+<img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=romilp619&theme=github_dark" alt="Repos per language" />
+<img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=romilp619&theme=github_dark" alt="Most committed language" />
+
+<img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=romilp619&theme=github_dark" alt="Stats" />
+<img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=romilp619&theme=github_dark&utcOffset=5.5" alt="Productive time" />
+
+<img height="190" src="https://streak-stats.demolab.com?user=romilp619&hide_border=true&background=0d1117&ring=39d353&fire=39d353&currStreakLabel=39d353&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e&stroke=30363d" alt="Contribution streak" />
+
+</div>
+
+---
+
+## `~/connect`
+
+Open to security research collaboration, bug bounty duos, and interesting product builds.
+
+Reach me at **romilp616@gmail.com**, or on [LinkedIn](https://www.linkedin.com/in/romilpatel1998) and [X](https://twitter.com/romilpatel1988).
+
+---
+
+<div align="center">
+<sub>The banner above is not a template. It is rendered from React with <a href="https://www.remotion.dev">Remotion</a>, source in <a href="./banner"><code>/banner</code></a>.</sub>
+</div>
